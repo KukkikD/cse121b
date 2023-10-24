@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Hello Kitty",
+    "relation": "Self",
+    "image": "https://example.com/hello-kitty.jpg",
+    "children": [
+      {
+        "name": "Mimmy",
+        "relation": "Twin Sister",
+        "image": "https://example.com/mimmy.jpg"
+      },
+      {
+        "name": "George White",
+        "relation": "Father",
+        "image": "https://example.com/george-white.jpg",
+        "children": [
+          {
+            "name": "Mary White",
+            "relation": "Mother",
+            "image": "https://example.com/mary-white.jpg",
+            "children": [
+              {
+                "name": "April",
+                "relation": "Cousin",
+                "image": "https://example.com/april.jpg"
+              },
+              {
+                "name": "May",
+                "relation": "Cousin",
+                "image": "https://example.com/may.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Grandpa White",
+            "relation": "Grandfather",
+            "image": "https://example.com/grandpa-white.jpg",
+            "children": [
+              {
+                "name": "Grandma White",
+                "relation": "Grandmother",
+                "image": "https://example.com/grandma-white.jpg",
+                "children": [
+                  {
+                    "name": "Granduncle",
+                    "relation": "Uncle",
+                    "image": "https://example.com/granduncle.jpg"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

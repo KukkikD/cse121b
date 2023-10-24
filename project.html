@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Family Tree Builder</title>
+</head>
+<body>
+    <h1>Family Tree Builder</h1>
+
+    <!-- Form to add family members -->
+    <form id="family-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="relation">Relation:</label>
+        <input type="text" id="relation" required>
+        <button type="submit">Add Family Member</button>
+    </form>
+
+    <!-- Display the family tree -->
+    <div id="family-tree">
+        <!-- The family tree will be dynamically generated here -->
+    </div>
+
+    <script type="module" src="scripts/project.js"></script>
+</body>
+</html>
